@@ -184,6 +184,7 @@
   background-image: url(../images/background_reservation.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 100px 0 120px 0;
 }
 
 .reservation__title {
@@ -192,7 +193,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 100px auto 0;
+  margin: 0 auto 0;
 }
 
 .form {
@@ -201,9 +202,6 @@
 
 .reservation__form {
   max-width: 385px;
-}
-
-.form__reservation-container {
 }
 
 .reservation__form-fieldset {
@@ -244,8 +242,12 @@
   height: 60px;
   background-color: #2f80ed;
   padding: 0;
-  border: 0;
+  border-radius: 4px;
   color: white;
+}
+
+.reservation__form-button:hover {
+  background-color: rgba(47, 128, 237, 0.7);
 }
 
 .form__item_ctrl_options {
@@ -254,6 +256,7 @@
   overflow: hidden;
   clip: rect(0 0 0 0);
   margin: 0 12px 0 0;
+  border-radius: 2px;
 }
 
 .reservation__form-fieldset_ctrl_checboxk {
