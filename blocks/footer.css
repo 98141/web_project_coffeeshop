@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  box-sizing: border-box;
+  color: #fff;
+  padding: 60px 80px;
+  background-color: #0A2850;
+}
+
+.footer__contents {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__content {
+  background-color: green;
+}
+
+
+/*llevarlo hasta el final*/
+.footer__copyright {
+  margin: 108px 0 60px 0;
+}

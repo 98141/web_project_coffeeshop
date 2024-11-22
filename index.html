@@ -108,7 +108,9 @@
           <h2 class="reservation__title">Reservar una mesa</h2>
           <form class="form reservation__form">
             <div class="form__container">
-              <fieldset class="reservation__form-fieldset reservation__form-fieldset_ctrl_data">
+              <fieldset
+                class="reservation__form-fieldset reservation__form-fieldset_ctrl_data"
+              >
                 <label class="reservation__form-label"
                   >Nombre *<input
                     type="text"
@@ -142,11 +144,13 @@
                 /></label>
               </fieldset>
 
-                <button type="submit" class="reservation__form-button">
-                  Reservar una mesa
-                </button>
+              <button type="submit" class="reservation__form-button">
+                Reservar una mesa
+              </button>
 
-              <fieldset class="reservation__form-fieldset reservation__form-fieldset_ctrl_checboxk">
+              <fieldset
+                class="reservation__form-fieldset reservation__form-fieldset_ctrl_checboxk"
+              >
                 <label class="reservation__form-label"
                   ><input
                     type="checkbox"
@@ -162,7 +166,50 @@
           </form>
         </section>
       </main>
-      <footer class="footer" id="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__contents">
+          <div class="footer__content">
+            <img
+              src="./images/logo_coffeeshop_light.svg"
+              alt="Logo Triple Espresso blanco"
+              class="footer__logo"
+            />
+            <img
+              src="./images/check.svg"
+              alt="Logo del circulo"
+              class="footer__circle"
+            />
+          </div>
+          <div class="footer__social">
+            <h2 class="footer__heading-social">Redes sociales</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Logo de Facebook"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Logo de Instagram"
+                    class="footer__social-icon"
+                  />
+                  Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <p class="footer__copyright">© 2024 Armando Mora</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
