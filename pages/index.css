@@ -246,11 +246,11 @@
 }
 
 .form__item_ctrl_options {
-  position: center;
 	width: 20px;
 	height: 20px;
 	overflow: hidden;
 	clip: rect(0 0 0 0);
+  margin: 0 12px 0 0;
 }
 
 .form__fieldset_ctrl_checboxk {
@@ -258,6 +258,3 @@
   text-align: center;
 }
 
-.form__item_ctrl_options {
-  margin: 0 12px 0 0;
-}
