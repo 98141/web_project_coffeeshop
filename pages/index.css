@@ -209,7 +209,7 @@
   margin: 0;
 }
 
-.reservation__form_label {
+.reservation__form-label {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -231,7 +231,7 @@
   margin: 8px 0 32px 0;
 }
 
-.reservation__form_button {
+.reservation__form-button {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -253,7 +253,7 @@
   margin: 0 12px 0 0;
 }
 
-.form__fieldset_ctrl_checboxk {
+.reservation__form-fieldset_ctrl_checboxk {
   margin-top: 32px;
   text-align: center;
 }
